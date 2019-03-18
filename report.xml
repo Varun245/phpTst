@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Unit" tests="5" assertions="10" errors="0" failures="0" skipped="0" time="0.039113">
+    <testsuite name="Tests\Unit\CalulatorTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/CalculatorTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.001426">
+      <testcase name="test_areaOfsquare" class="Tests\Unit\CalulatorTest" classname="Tests.Unit.CalulatorTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/CalculatorTest.php" line="17" assertions="2" time="0.001182"/>
+      <testcase name="test_areaOfsquare_lengthIs6" class="Tests\Unit\CalulatorTest" classname="Tests.Unit.CalulatorTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/CalculatorTest.php" line="25" assertions="2" time="0.000027"/>
+      <testcase name="test_areaOfSquare_WhenCalledWithoutLength_ThrowAnException" class="Tests\Unit\CalulatorTest" classname="Tests.Unit.CalulatorTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/CalculatorTest.php" line="33" assertions="2" time="0.000217"/>
+    </testsuite>
+    <testsuite name="Tests\Unit\ExampleTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.034997">
+      <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/ExampleTest.php" line="15" assertions="1" time="0.034997"/>
+    </testsuite>
+    <testsuite name="Test\Unit\MathTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/MathTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.002690">
+      <testcase name="test_getArea_WhenCalledWithLength2_Return4" class="Test\Unit\MathTest" classname="Test.Unit.MathTest" file="/home/varunransubhe/dev/ee/PhpUnitTest/tests/Unit/MathTest.php" line="20" assertions="3" time="0.002690"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
